@@ -1,0 +1,107 @@
+main {
+    
+    justify-content: center;
+   
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+
+
+    padding: 3rem 0;
+}
+
+.card-post {
+    background-color: #222;
+    padding: 50px 300px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card-post h1{
+    font-family: Heebo;
+    font-weight: 800;
+    text-align: center;
+
+    color: #ffbb33;
+
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.line-post {
+    height: 2px;
+    background-color: #3E445B;
+}
+
+.card-body-post {
+    margin-top: 25px;
+
+}
+
+.fields {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+
+    color: #D2DAF5;
+
+    font-family: Poppins;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 20px;
+    border: 1em;
+    outline: 1;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+input {
+    height: 45px;
+}
+
+textarea {
+    height: 45px;
+    resize: none;
+
+    padding-top: 15px;
+}
+
+.btn-post{
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.btn-post button{
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 5px 30px;
+    color: #fff;
+    background-color: #ffbb33;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.error-message {
+    color: rgb(240, 47, 47);
+}

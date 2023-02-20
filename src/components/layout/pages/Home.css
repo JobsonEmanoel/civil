@@ -1,0 +1,56 @@
+.card-post {
+    background-color: #222;
+    padding: 30px 70px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+body{
+font-family: 'open sans', sans-serif;
+font-size: 16px;
+padding: auto;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+
+    padding: 100px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+    padding: auto;
+    
+}
+
+thead th {
+text-align: center;
+font-family:'Open Sans', sans-serif;
+border-bottom: 2px solid rgb(0, 0, 0);
+padding: 1.2em;
+
+}
+
+thead button { border: 0; border-radius: none; font-family: inherit; font-weight: 700; font-size: inherit; padding: 0.5em; margin-bottom: 1px; -webkit-border-radius: none; -moz-border-radius: none; -ms-border-radius: none; -o-border-radius: none;
+}
+
+
+thead button.descending::after {
+content: '☝️';
+display: inline-block;
+margin-left: 1em;
+}
+
+tbody td {
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+padding: 0.5em;
+border-bottom: 2px solid rgb(0, 0, 0);
+padding-top: 2em;
+}
+
+tbody tr:hover {
+background-color: rgb(207, 188, 47);
+}

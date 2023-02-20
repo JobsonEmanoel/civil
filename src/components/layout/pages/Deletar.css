@@ -1,0 +1,19 @@
+.btn-post {
+    font-family: Heebo;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 5px 8px;
+    color: #fff;
+    background-color: #ffbb33;
+    
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn-post :hover{
+    color: #a7a093;
+}

@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color:#222; 
+    padding: 0.4em;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-radius:1rem;
+    -webkit-border-radius:1rem;
+    -moz-border-radius:1rem;
+    -ms-border-radius:1rem;
+    -o-border-radius:1rem;
+}
+.item {
+    margin-right: 1em;
+}
+
+.item a {
+    color: #efef;
+    text-decoration: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.item a:hover {
+    color: #ffbb33;
+}
